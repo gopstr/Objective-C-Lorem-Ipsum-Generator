@@ -13,7 +13,6 @@ Maybe this will save you the 15 minutes I spent writing it. I based it from http
     LoremIpsum* loremIpsum = [LoremIpsum new];
     NSString* defaultText = [loremIpsum words:15];
     _textView.text = defaultText;
-    [loremIpsum release];
 ```
 
 ## License

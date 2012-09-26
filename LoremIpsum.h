@@ -2,6 +2,7 @@
 //  LoremIpsum.h
 //
 //  Created by dav on 12/24/10.
+//  Modified by gopstr on 09/26/12.
 //  Public domain where appropriate; free for everyone, for all usages, elsewhere.
 //
 
