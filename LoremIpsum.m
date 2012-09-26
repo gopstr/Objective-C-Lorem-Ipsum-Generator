@@ -57,6 +57,10 @@
   return collectedWords;
 }
 
+- (NSString*) title:(NSUInteger)count {
+    return [self capitalizeFirstLetterIn:[self words:count]];
+}
+
 - (NSString*) sentences:(NSUInteger)count {
     NSMutableString *result = [NSMutableString string];
     for (NSUInteger i = 0; i < count; i++) {
@@ -67,7 +71,7 @@
         
         if (i + 1 == count) { //last sentence
             [result appendString:@"."];
-        } else {            
+        } else {
             [result appendString:@". "];
         }
     }

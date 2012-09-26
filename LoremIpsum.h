@@ -13,6 +13,7 @@
 }
 
 - (NSString*) words:(NSUInteger)count;
+- (NSString*) title:(NSUInteger)count; //like -words: but first letter is capital
 - (NSString*) sentences:(NSUInteger)count;
 
 @end
